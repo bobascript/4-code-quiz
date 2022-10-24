@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --primary: #647B6A;
+    --secondary: #F1EBE1;
+    --third: #e9dfd0;
+    --black: #000000;
+    --grey: #808080;
+    font-family: 'Gemunu Libre', sans-serif;
+  }
+  
+body{
+    background-color: var(--secondary);
+  }
+nav.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+    color: var(--primary);
+}
+nav.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav.menu ul li{
+    display: inline-block;
+}
+
+.wrapper {
+    width: 700px;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#choices {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+} 
+
+h1 {
+    font-size: 40px;
+    padding: 15px;
+ }
+
+#para {
+    font-size: 20px;
+}
+
+button {
+    background-color: var(--primary);
+    color: white;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1 solid;
+    
+}
+
+.start-button {
+    display: flex;
+    justify-content: center;
+}
+#start {
+    justify-content: center;
+}
+
+.choice {
+    text-align: left;
+}
+
+#resultsText {
+    text-align: left;
+    color: var(--grey);
+    font-size: 20px;
+    font-style: italic;
+}
