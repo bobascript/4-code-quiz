@@ -35,4 +35,4 @@ When you click on the start button at the center of the screen, you will see the
 
 ## Deployed Page
 
-The webpage has been deployed at: https://scriptmatcha.github.io/4-code-quiz/
+The webpage has been deployed at: https://bobascript.github.io/4-code-quiz/
